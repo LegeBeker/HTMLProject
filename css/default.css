@@ -28,6 +28,18 @@
   display: block;
 }
 
+.footer {
+  border-top: 3px solid lightgrey;
+  margin-top: 50px;
+  margin-left: 750px;
+  margin-right: 750px;
+  text-align: center;
+  background: linear-gradient(to right, darkorange , violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 16px;
+}
+
 ul {
   list-style-type: none;
   margin-top: 0px;
