@@ -1,11 +1,10 @@
 * {
   font-family: arial;
-  box-sizing: border-box;
 }
 
 .logo {
-  margin-top: 35px;
-  margin-left: auto;
+  margin-top: 20px;
+  margin-left: 100px;
   margin-right: auto;
   display: block;
 }
@@ -14,14 +13,21 @@
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
+.pageName {
+  margin-right: 100px;
+  margin-left: auto;
+  font-size: 50px;
+}
+
 .footer {
-  border-top: 3px solid lightgrey;
-  margin-top: 50px;
-  margin-left: 35%;
-  margin-right: 35%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 100%;
   text-align: center;
-  background: linear-gradient(to right, darkorange , violet);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 10px 16px;
+  background: linear-gradient(to bottom, #8061c2 , #382a54);
+  -webkit-text-fill-color: white;
 }
