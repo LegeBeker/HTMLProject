@@ -1,5 +1,6 @@
 * {
   font-family: arial;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -39,6 +40,8 @@
   -webkit-text-fill-color: transparent;
   padding: 10px 16px;
 }
+
+
 
 ul {
   list-style-type: none;
