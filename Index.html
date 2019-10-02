@@ -17,7 +17,7 @@
 <body>
   <div class="header">
     <img class="logo" src="Images/Logos/MainLogoTransparant2.png" alt="Webwinkel" height="100" />
-    <img class="logo" src="Images/Logos/slogan.png" alt="Webwinkel" height="100" />
+    <img class="web" src="Images/Logos/slogan.png" alt="Webwinkel" height="100" />
     <ul>
         <li><a href="pakketen.html">Prijzen & Pakketen</a></li>
         <li class="dropdown"><a href="projecten.html">Afgeronde Projecten</a>
@@ -51,11 +51,38 @@
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
   </div>
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
     <script src="js/slideshow.js"></script>
+<div class="pakketen">
+    <div class="pakket" style="float:left;">
+      <div class="pakketHead" style="background:linear-gradient(to right, darkorange , violet)">
+      Basis-pakket
+    </div>
+    <div class="pakketBody">
+    - Sitemap<br>- Ontwerp van website<br>- Bouwen van website<br>- Infosites<br>- Support via mail
+  </div>
+    </div>
+    <div class="pakket" style="float:left;">
+      <div class="pakketHead" style="background:linear-gradient(to right, violet , darkviolet)">
+      Standaard-pakket
+      </div>
+      <div class="pakketBody">
+        - Sitemap<br>- Ontwerp van website<br>- Bouwen van website<br>- Info & organizatie sites<br>- Meedenken tijdens proces<br>- Support via mail
+        </div>
+    </div>
+    <div class="pakket" style="float:left;">
+      <div class="pakketHead" style="background:linear-gradient(to right, darkviolet , #382a54)">
+      Pro-pakket
+      </div>
+      <div class="pakketBody">
+        - Sitemap<br>- Ontwerp van website<br>- Bouwen van website<br>- Info, organizatie & webshops<br>- Hosting vanuit ons<br>- Meedenken tijdens proces<br>- Support via telefoon & mail
+        </div>
+    </div>
+</div>
 </body>
 <footer>
   <div class="footer">

@@ -38,8 +38,8 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
+  width: 15.5%;
   background-color: #f9f9f9;
-  min-width: 15.2%;
   z-index: 1;
 }
 
@@ -54,4 +54,14 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 481px){
+  li {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    width: 248px;
+  }
 }

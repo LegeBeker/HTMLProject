@@ -81,3 +81,11 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media screen and (max-width: 481px){
+.slideshow, .dot, .prev, .next {
+  width: 0px;
+  font-size: 0px;
+  position: absolute;
+  }
+}
