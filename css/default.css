@@ -1,5 +1,6 @@
 * {
   font-family: arial;
+  color: #222;
 }
 
 .logo {
@@ -51,6 +52,14 @@ form {
   width: 60%;
   margin-left: 20%;
   margin-bottom: 25px;
+}
+
+.text3 {
+  display: run-in;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 25%;
+  text-align: right;
 }
 
 .nieuws {
