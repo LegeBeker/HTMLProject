@@ -22,6 +22,37 @@
   -webkit-text-fill-color: white;
 }
 
+.kop {
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+  margin-bottom: 0px;
+  background: linear-gradient(to right, darkorange , violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 3px solid lightgrey;
+  width: 50%;
+  margin-left: 25%;
+}
+
+form {
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-size: 20px;
+  margin: 10px;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 25px;
+}
+
 .pakketen {
   display: flex;
   align-items: center;
@@ -44,11 +75,29 @@
 }
 
 .pakketBody {
-  height: 400px;
+  height: 200px;
   font-size: 15px;
   text-align: left;
   line-height: 2;
   padding: 20px;
+}
+
+.pakketButton {
+  background: #222;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  width: 75%;
+  margin-top: 70px;
+  margin-left: 12.5%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+}
+
+.pakketButton:hover {
+  background: grey;
 }
 
 @media screen and (max-width: 481px){
