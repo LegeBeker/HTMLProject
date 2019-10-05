@@ -1,12 +1,40 @@
 * {
   font-family: arial;
-  color: #222;
 }
 
-.logo {
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+  color: grey;
+}
+
+#logo {
+  background: var(--c-logo) no-repeat right center;
+  background-size: 400px;
+  width: 400px;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: auto;
+}
+
+.dark-mode {
+  background: var(--c-button) no-repeat right center;
+  float: right;
+  background-size: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+#web {
+    background: var(--c-slogan) no-repeat right center;
+    background-size: 350px;
+    width: 350px;
 }
 
 .footer {
@@ -31,7 +59,7 @@
   background: linear-gradient(to right, darkorange , violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-bottom: 3px solid lightgrey;
+  border-bottom: 3px solid var(--c-border);
   width: 50%;
   margin-left: 25%;
 }
@@ -41,6 +69,15 @@ form {
 }
 
 .img {
+  background: var(--c-logo) no-repeat right center;
+  background-size: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -63,7 +100,7 @@ form {
 }
 
 .nieuws {
-  box-shadow: 0px 0px 7px lightgrey;
+  box-shadow: 0px 0px 7px var(--c-shadow);
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -78,7 +115,7 @@ form {
 }
 
 .pakket {
-  box-shadow: 0px 0px 7px lightgrey;
+  box-shadow: 0px 0px 7px var(--c-shadow);
   width: 250px;
   height: 500px;
   margin: 25px;
@@ -119,12 +156,12 @@ form {
 }
 
 @media screen and (max-width: 481px){
-  .logo {
+  #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .web {
+  #web {
     width: 0px;
     position: absolute;
   }
@@ -132,7 +169,6 @@ form {
     display: inline-block;
   }
   .pakket {
-    box-shadow: 0px 0px 7px lightgrey;
     width: 100%;
     margin: 0px;
     margin-top: 25px;
