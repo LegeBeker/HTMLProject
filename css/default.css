@@ -1,8 +1,15 @@
 * {
   font-family: arial;
 }
+/* KAN WEG ALS ALLES GOED IS */
+html {
+  height: 100%;
+}
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;

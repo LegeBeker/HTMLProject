@@ -1,13 +1,3 @@
-html,
-body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 input[type=checkbox] {
    position: absolute;
    top: -9999px;
